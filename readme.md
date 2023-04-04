@@ -62,7 +62,7 @@ The utils folder contains various utility functions that are used throughout the
 
 To get started with the project, follow these steps:
 
-1. Clone the repository: `[git clone https://github.com/{your-repository-name}.git] (https://github.com/Harshalingole/react-enterprise-boilerplate.git)`
+1. Clone the repository: `[git clone https://github.com/Harshalingole/react-enterprise-boilerplate.git]`
 2. Install the dependencies using `npm install`.
 3. Start the development server using `npm run dev`.
 
