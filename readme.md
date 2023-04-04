@@ -12,11 +12,13 @@ React Enterprise Boilerplate is a starter template for building scalable and mai
 ## Methodology Behind Organizing React Project Directory Structure
 Creating a scalable and maintainable codebase in React can be challenging, but by following a few key principles, we can make the process much smoother. Here are three principles that I've used in this React Enterprise Boilerplate:
 ### Composability: 
-    Reusing code between components is a powerful concept in React. By creating small, reusable building blocks, you can combine them to form more complex components. For example, a "Button" component can be used in multiple places throughout your application.
+Reusing code between components is a powerful concept in React. By creating small, reusable building blocks, you can combine them to form more complex components. For example, a "Button" component can be used in multiple places throughout your application.
 ### Local first:
-    Keep the code that pertains only to a specific component, local. Avoid breaking out code into separate directories unless necessary. For example, an authentication feature with an auth-form component and utility functions should be kept in the same directory as the feature itself.
+Keep the code that pertains only to a specific component, local. Avoid breaking out code into separate directories unless necessary. For example, an authentication feature with an auth-form component and utility functions should be kept in the same directory as the feature itself.
 ### Flatter is better:
-     Every time you nest a component, it becomes harder to understand its local code. Keeping your directory structure as flat as possible makes it easier to find and modify the files you need. However, if you have a large "Features" directory with multiple components, it's okay to nest components by their functionality or the page they're used on.
+Every time you nest a component, it becomes harder to understand its local code. Keeping your directory structure as flat as possible makes it easier to find and modify the files you need. However, if you have a large "Features" directory with multiple components, it's okay to nest components by their functionality or the page they're used on.
+
+
 It is important to note that while the principles outlined above can be incredibly helpful in creating a scalable and maintainable React codebase, they are not hard and fast rules. Ultimately, the best directory structure for your project will depend on its specific requirements and needs.
 
 That said, the principles of composability, local-first development, and flat directory structures are powerful tools that can make your development process smoother and more efficient. By organizing your codebase in a way that promotes reusability, keeps related code together, and minimizes nesting, you can create a more organized and manageable project.
